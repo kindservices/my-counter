@@ -2,7 +2,7 @@
 export TAG=${TAG:-local}
 export IMG=${IMG:-kindservices/my-counter:$TAG}
 export PORT=${PORT:-3000}
-APP=${APP:-myCounter}
+APP=${APP:-my-counter}
 BRANCH=${BRANCH:-`git rev-parse --abbrev-ref HEAD`}
 
 build() {
