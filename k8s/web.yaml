@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: my-counter-web
-        image: kindservices/my-counter:latest
+        image: kindservices/my-counter:2
         imagePullPolicy: Always
         ports:
         - containerPort: 80
